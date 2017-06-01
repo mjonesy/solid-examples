@@ -1,3 +1,9 @@
+
+/* 
+	This class is pre-refactor, with calculating and displaying the area all in one class
+	Attributes are made public, to not take up distracting space with getters and setters
+**/
+
 class Rectangle {
 	public Integer length;
 	public Integer height;
