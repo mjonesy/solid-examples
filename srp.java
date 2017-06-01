@@ -6,7 +6,7 @@ class Rectangle {
 		return length * height;
 	}
 
-	public static void render(Rectangle rectangle) {
+	public void render(Rectangle rectangle) {
 		Integer l = rectangle.length;
 		Integer h = rectangle.height;
 		Integer area = rectangle.area(l, h);
