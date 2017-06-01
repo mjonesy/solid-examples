@@ -16,7 +16,7 @@ class Rectangle {
 	}
 }
 
-class runner {
+class Runner {
 	public static void main(String[] args) {
 		Rectangle rec1 = new Rectangle();
 		rec1.length = 2;
